@@ -1,0 +1,17 @@
+.tooltip {
+    position: relative;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: #f6fcff;
+    color: #074c91;
+    text-align: center;
+    border-radius: 1rem;
+    /* Position the tooltip */
+    font-size: 16px;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}

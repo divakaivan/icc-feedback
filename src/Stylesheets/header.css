@@ -1,0 +1,10 @@
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: #169146;
+    color: white;
+    font-size: 30px;
+    font-family: "Comic Sans MS", sans-serif;
+    transition: all 0.3s ease-in;
+    margin: -2%;
+}
