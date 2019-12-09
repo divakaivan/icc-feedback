@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cbd754b-20c6-4ed8-bb29-68d5e4fc3327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/H3Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Info.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stylesheets/feedback-skill.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stylesheets/h3header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stylesheets/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stylesheets/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skill.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ThankYou.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stylesheets/thank-you.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios-suerverSubmits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheets/feedback-skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/feedback-skill.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheets/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +88,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575916409489</updated>
-      <workItem from="1575916411506" duration="3405000" />
+      <workItem from="1575916411506" duration="11842000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding skills input fields.">
+      <created>1575920131621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575920131621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding skills input fields." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding skills input fields." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1575920130600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575920130600" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1575920133223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575920133223" />
   </component>
 </project>

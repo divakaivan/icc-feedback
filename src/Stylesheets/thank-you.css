@@ -1,0 +1,24 @@
+.thanks {
+    animation:thanksAppear 3s ease-in forwards;
+    font-size: 66px;
+    font-style: oblique;
+    margin-left: 15%;
+}
+
+@keyframes thanksAppear {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
