@@ -1,8 +1,8 @@
 .thanks {
     animation:thanksAppear 3s ease-in forwards;
-    font-size: 66px;
     font-style: oblique;
-    margin-left: 15%;
+    justify-content: center;
+    text-align: center;
 }
 
 @keyframes thanksAppear {

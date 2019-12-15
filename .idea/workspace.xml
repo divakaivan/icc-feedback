@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cbd754b-20c6-4ed8-bb29-68d5e4fc3327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Skill.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ThankYou.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stylesheets/thank-you.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/axios-suerverSubmits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archive/FeedbackSkill.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Archive/Skill.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stylesheets/feedback-skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/feedback-skill.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stylesheets/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FeedbackSkill.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/H3Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/H3Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archive/Info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skill.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ThankYou.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archive/ThankYou.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheets/thank-you.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/thank-you.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/axios-suerverSubmits.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/axios-suerverSubmits.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/divakaivan/icc-feedback.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Ul1XnqscdvpoP57uXU9oTNQFne" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -89,6 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575916409489</updated>
       <workItem from="1575916411506" duration="11842000" />
+      <workItem from="1576402673382" duration="8126000" />
     </task>
     <task id="LOCAL-00001" summary="Adding skills input fields.">
       <created>1575920131621</created>
@@ -103,18 +112,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding skills input fields." />
     <option name="LAST_COMMIT_MESSAGE" value="Adding skills input fields." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576404122565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1576404122565" />
     <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1575920130600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575920130600" />
+    <state x="614" y="39" key="RollbackChangesDialog" timestamp="1576409643930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="39" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1576409643930" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1575920133223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575920133223" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576409693617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576409693617" />
   </component>
 </project>

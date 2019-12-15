@@ -1,17 +1,18 @@
 import React from "react";
-import "../Stylesheets/header.css";
+import {Row, Col} from "react-bootstrap";
 
-class Header extends React.Component {
-
-    render() {
-
-        return(
-            <div className="header">
+/**
+ * Header for the feedback website.
+ */
+const Header = () => {
+    return(
+        <Row>
+            <Col className="py-5 bg-success text-white text-center font-italic">
                 <h1>Welcome to the Ivan Feedback-er</h1>
-                <h2>You are under oath. Tell the truth!</h2>
-            </div>
-        )
-    }
-}
 
+                <h2>You are under oath. Tell the truth!</h2>
+            </Col>
+        </Row>
+    )
+};
 export default Header;

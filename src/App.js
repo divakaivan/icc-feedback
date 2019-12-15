@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "./Components/Header";
-import FeedbackSkill from "./Components/FeedbackSkill";
+import FeedbackSkill from "./Archive/FeedbackSkill";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
 
