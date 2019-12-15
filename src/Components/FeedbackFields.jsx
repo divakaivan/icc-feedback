@@ -90,7 +90,7 @@ class FeedbackFields extends React.Component {
                 <Row>
                     <Col className="my-4" md={{span: 6, offset: 3}}>
                         <SkillFields skills={skills} handleChange={this.handleChange}/>
-                        <input className="submit-feedback" type="submit" value="Submit feedback"
+                        <input disabled className="submit-feedback" type="submit" value="Submit feedback"
                                onClick={this.handleClick}/>
                         <ThanksModal show={isSubmitted}/>
                         <EmptyError show={isEmpty}/>
