@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./Components/Header";
-import FeedbackSkill from "./Archive/FeedbackSkill";
+import FeedbackFields from "./Components/FeedbackFields";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
@@ -9,7 +9,7 @@ class App extends React.Component {
         return (
             <div>
                 <Header/>
-                <FeedbackSkill/>
+                <FeedbackFields/>
             </div>
         )
     }
