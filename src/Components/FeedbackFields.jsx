@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "../axios-suerverSubmits";
+//import axios from "../axios-suerverSubmits";
 import ThanksModal from "./ThanksModal";
 import EmptyError from "./EmptyError";
 import SkillFields from "./SkillFields";
@@ -20,7 +20,8 @@ class FeedbackFields extends React.Component {
             starts: "",
             otherFeedback: "",
             isSubmitted: false,
-            isEmpty: false
+            isEmpty: false,
+            isEmptyCount: 0
         };
         this.handleClick = this.handleClick.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -35,33 +36,36 @@ class FeedbackFields extends React.Component {
 
     handleClick(event) {
         event.preventDefault();
-        const {stops, continues, starts, otherFeedback} = this.state;
+        const {stops, continues, starts, otherFeedback, isEmptyCount} = this.state;
 
         if (stops === "" || starts === "" || continues === "") {
             this.setState({
-                isEmpty: true
+                isEmpty: true,
+                isEmptyCount: isEmptyCount + 1
             })
+
         } else {
             this.setState({
                 isSubmitted: true
             });
 
             const feedback = {
-                stops: stops,
                 continues: continues,
                 starts: starts,
+                stops: stops,
                 other: otherFeedback
             };
-            axios.post('/feedback.json', feedback)
-                .then(response => console.log(response))
-                .catch(error => console.log(error))
-            ;
+            console.log(feedback);
+            // axios.post('/feedback.json', feedback)
+            //     .then(response => console.log(response))
+            //     .catch(error => console.log(error))
+            // ;
         }
     };
 
 
     render() {
-        const {stops, continues, starts, otherFeedback, isEmpty, isSubmitted} = this.state;
+        const {stops, continues, starts, otherFeedback, isEmpty, isSubmitted, isEmptyCount} = this.state;
         const skills = [
             {
                 h3Header: "3 things to continue doing",
@@ -90,10 +94,10 @@ class FeedbackFields extends React.Component {
                 <Row>
                     <Col className="my-4" md={{span: 6, offset: 3}}>
                         <SkillFields skills={skills} handleChange={this.handleChange}/>
-                        <input disabled className="submit-feedback" type="submit" value="Submit feedback"
+                        <input className="submit-feedback" type="submit" value="Submit feedback"
                                onClick={this.handleClick}/>
                         <ThanksModal show={isSubmitted}/>
-                        <EmptyError show={isEmpty}/>
+                        <EmptyError show={isEmpty} isEmptyCount={isEmptyCount}/>
                     </Col>
                 </Row>
             </Container>
