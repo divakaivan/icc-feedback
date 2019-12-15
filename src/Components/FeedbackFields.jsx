@@ -4,7 +4,7 @@ import ThanksModal from "./ThanksModal";
 import EmptyError from "./EmptyError";
 import SkillFields from "./SkillFields";
 import "../Stylesheets/feedback-skill.css";
-import {Row, Col} from "react-bootstrap";
+import {Row, Col, Container} from "react-bootstrap";
 
 /**
  * This component renders a Form with all skill input fields and their headers.
@@ -86,7 +86,7 @@ class FeedbackFields extends React.Component {
         ];
 
         return (
-            <React.Fragment>
+            <Container>
                 <Row>
                     <Col className="my-4" md={{span: 6, offset: 3}}>
                         <SkillFields skills={skills} handleChange={this.handleChange}/>
@@ -96,7 +96,7 @@ class FeedbackFields extends React.Component {
                         <EmptyError show={isEmpty}/>
                     </Col>
                 </Row>
-            </React.Fragment>
+            </Container>
         )
     }
 }
